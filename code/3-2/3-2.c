@@ -1,7 +1,7 @@
 #include <stdio.h>
 void swap_endian(int * x){
   unsigned char *p = (unsigned char*)x;
-  unsigned char temp:
+  unsigned char temp;
 
     temp = p[0];
     p[0] = p[3];
