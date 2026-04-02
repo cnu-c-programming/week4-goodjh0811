@@ -13,7 +13,7 @@ for(int i = 0; i < 5; i++)
   printf("%d ", b[i]);
 printf("\n");
 
-int c[5] = {0}
+int c[5] = {0};
 
 for (int i = 0; i < 5; i++)
   printf("%d ", c[i]);
