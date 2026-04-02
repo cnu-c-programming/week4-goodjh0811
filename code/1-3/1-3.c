@@ -12,14 +12,14 @@ logger_global("task1");
 }
 
 void task3(){
-  for(int i = 0; i < 3; i++);
+  for(int i = 0; i < 3; i++){
 logger_static_inline("task3");
 logger_global("task3");
 }
 }
 int main() {
-  task1()
-  task2()
-  task3()
+  task1();
+  task2();
+  task3();
   return 0;
   }
