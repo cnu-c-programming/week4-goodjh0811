@@ -1,13 +1,14 @@
 #include <stdio.h>
 
-void my_print(char type, void* x) {
-  if (type == 'C'){
-    printf("%c\n", *((char*)x));
-} else if (type == 'D'){
-    printf("%d\n", *((int*)x));
-} else if (type == 'S'){
-    printf("%s\n", (char*)x);
-  }
+void my_print(char type, void*x){
+     switch(type){
+        case 'C': printf("%c\n", *(char*)x);
+            break;
+        case 'D': printf("%d\n", *(int*)x);
+            break;
+        case 'S': printf("%s\n", (char*)x);
+            break;
+    }
 }
 
 int main() {
@@ -22,3 +23,4 @@ my_print('C', &b);
 
 return 0;
 }
+ 
