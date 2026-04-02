@@ -1,12 +1,25 @@
 #include <stdio.h>
 
 int sum(int arr[], int n){
+  total = 0;
+  for(int i = 0; i < n; i++) {
+    for int (i = 0; i < n; i++){
 }
+return total;
 
 double average(int arr[], int n){
+  int total = sum(arr, n);
+  return(double)total / n;
 }
 
 int max(int arr[], int n){
+  int maxVal = arr[0];
+  for(int i = 1; i < n; i++) {
+    if(arr[i] > maxVal) {
+      maxVal = arr[i]
+        }
+  }
+return maxVal;
 }
 
 int main() {
