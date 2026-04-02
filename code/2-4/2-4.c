@@ -13,7 +13,6 @@ printf("%c - alpha: %d digit: %d upper: %c lower: %c\n",
   isdigit(ch), 
   toupper(ch), 
   tolower(ch));
-}
-return 0;
+  }
 }
 
